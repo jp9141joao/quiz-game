@@ -1,97 +1,100 @@
-# 🎲 **Quiz de Perguntas** 📚
+# 🎲 **Quiz Game** 📚
 
-Um jogo interativo baseado em múltiplas categorias com perguntas de múltipla escolha. Teste seus conhecimentos com perguntas sobre Geografia, Biologia, Jogos, Filmes e Séries!
-
----
-
-## 🚀 **Visão Geral do Projeto**
-
-O programa é um **quiz interativo em Python** que apresenta várias categorias de perguntas para os jogadores. Ele simula um jogo no qual você pode selecionar diferentes temas e responder perguntas para ganhar pontos. Cada erro reduz suas vidas até o fim do jogo.
+An interactive game based on multiple categories with multiple-choice questions. Test your knowledge with questions about Geography, Biology, Games, Movies, and Series!
 
 ---
 
-## 🛠️ **Recursos Principais**
+## 🚀 **Project Overview**
 
-- Interface baseada em linha de comando simples.
-- Múltiplas categorias com perguntas e opções para selecionar:
-  - Geografia
-  - Biologia
-  - Jogos
-  - Filmes e Séries  
-- Sistema de pontuação com "vidas" para tornar a experiência dinâmica.
-- Menu principal para seleção de categorias e opções.
+The program is an **interactive Python quiz** that presents various question categories to players. It simulates a game where you can select different topics and answer questions to score points. Each wrong answer reduces your lives until the game is over.
 
 ---
 
-## ▶️ **Como Executar**
+## 🛠️ **Key Features**
 
-1. Clone este projeto em seu ambiente local:
+* Simple command-line interface.
+* Multiple categories with questions and selectable options:
+
+  * Geography
+  * Biology
+  * Games
+  * Movies and Series
+* Scoring system with "lives" to make the experience dynamic.
+* Main menu for selecting categories and options.
+
+---
+
+## ▶️ **How to Run**
+
+1. Clone this project to your local environment:
 
 ```bash
-git clone https://github.com/seu-usuario/quiz-interativo.git
+git clone https://github.com/your-username/interactive-quiz.git
 ```
 
-2. Navegue até o diretório do projeto:
+2. Navigate to the project directory:
 
 ```bash
-cd quiz-interativo
+cd interactive-quiz
 ```
 
-3. Execute o código no terminal ou no seu ambiente Python:
+3. Run the code in the terminal or your Python environment:
 
 ```bash
-python seu_arquivo.py
+python your_file.py
 ```
 
-4. No menu principal, escolha a opção desejada para começar o quiz.
+4. In the main menu, choose the desired option to start the quiz.
 
 ---
 
-## 🏆 **Estrutura do Código**
+## 🏆 **Code Structure**
 
-### Arquivos Principais
-- `Banco_Perguntas`: Contém as perguntas para cada uma das categorias disponíveis no jogo.
-- `Imprimir_Perguntas`: Função responsável por apresentar as perguntas e interatividade durante o jogo.
-- Categorias: Implementação das categorias `Geografia`, `Biologia`, `Jogos`, `Filmes e Séries`.
-- Menu principal: Opções de navegação para cada categoria e a função de encerramento do jogo.
+### Main Files
 
----
-
-## 📚 **Categorias Disponíveis**
-
-Os temas disponíveis no jogo incluem perguntas e múltiplas escolhas sobre:
-
-1. **Geografia**
-   - Exemplos: "Qual o maior continente do mundo?", "Quantos continentes existem no mundo?"
-   
-2. **Biologia**
-   - Exemplos: "Qual o maior animal do mundo?", "Qual é o animal mais inteligente do mundo?"
-   
-3. **Jogos**
-   - Exemplos: "Qual o jogo mais vendido de todos os tempos?", "Qual o primeiro videogame do mundo?"
-
-4. **Filmes e Séries**
-   - Exemplos: "Qual o filme de maior bilheteria do mundo?", "Qual a série com mais temporadas da atualidade?"
+* `Question_Bank`: Contains the questions for each available category in the game.
+* `Print_Questions`: Function responsible for presenting questions and interaction during the game.
+* Categories: Implementation of the categories `Geography`, `Biology`, `Games`, `Movies and Series`.
+* Main Menu: Navigation options for each category and the function to exit the game.
 
 ---
 
-## ⚙️ **Como Funciona**
+## 📚 **Available Categories**
 
-1. **Menu Principal**  
-   O jogo inicia com opções para selecionar uma categoria específica ou sair do jogo.
+The available topics in the game include questions and multiple-choice answers about:
 
-2. **Quiz por Categoria**  
-   O jogador escolhe uma opção de categoria, como Geografia, Biologia, etc., e responde perguntas.
+1. **Geography**
 
-3. **Respostas Corretas e Pontuação**  
-   Cada resposta correta aumenta seus pontos, enquanto erros diminuem suas "vidas".
+   * Examples: "What is the largest continent in the world?", "How many continents are there in the world?"
 
-4. **Revisão de Pontuação**  
-   Ao final, a quantidade de acertos é exibida.
+2. **Biology**
+
+   * Examples: "What is the largest animal in the world?", "What is the most intelligent animal in the world?"
+
+3. **Games**
+
+   * Examples: "What is the best-selling game of all time?", "What was the first video game in the world?"
+
+4. **Movies and Series**
+
+   * Examples: "What is the highest-grossing movie in the world?", "What series currently has the most seasons?"
 
 ---
 
-Agora, divirta-se testando seus conhecimentos no **Quiz Interativo! 🎉** 🧠
+## ⚙️ **How It Works**
+
+1. **Main Menu**
+   The game starts with options to select a specific category or exit the game.
+
+2. **Category Quiz**
+   The player selects a category option such as Geography, Biology, etc., and answers questions.
+
+3. **Correct Answers and Scoring**
+   Each correct answer increases your points, while mistakes reduce your "lives."
+
+4. **Score Review**
+   At the end, the number of correct answers is displayed.
 
 ---
 
+Now, have fun testing your knowledge with the **Interactive Quiz! 🎉** 🧠
