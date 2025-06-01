@@ -29,7 +29,7 @@ The program is an **interactive Python quiz** that presents various question cat
 1. Clone this project to your local environment:
 
 ```bash
-git clone https://github.com/jp9141joao/quiz-game
+git clone https://github.com/jp9141joao/quiz-game.git
 ```
 
 2. Navigate to the project directory:
